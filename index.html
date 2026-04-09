@@ -12,6 +12,7 @@
         :root {
             --pe-text-main: #333333;
             --pe-orange: #ff7400;
+            --pe-green: #008d4e;
             --pe-gray-light: #EEEEEE;
             --pe-gray-footer: #F5F5F5;
             --pe-gray-text: #595959;
@@ -40,17 +41,17 @@
 <body class="bg-white">
 
     <!-- En-tête -->
-    <header class="bg-white py-6 shadow-md border-b border-[var(--pe-gray-light)]">
+    <header class="bg-[var(--pe-green)] py-6 shadow-md border-b border-[var(--pe-gray-light)] text-white">
         <div class="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center text-center md:text-left">
             <div class="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-4 mb-4 md:mb-0">
-                <div class="w-20 h-20 rounded-full border border-[var(--pe-gray-light)] bg-white flex items-center justify-center text-[var(--pe-orange)] font-bold text-2xl">EC</div>
+                <div class="w-20 h-20 rounded-full border border-white/20 bg-white flex items-center justify-center text-[var(--pe-green)] font-bold text-2xl shadow-lg">EC</div>
                 <div>
-                    <h1 class="text-2xl font-bold leading-tight text-[var(--pe-text-main)]">Elvira Carhuallanqui</h1>
-                    <p class="text-[var(--pe-text-main)] font-medium">Conseillère de la ville • Parc-Extension</p>
+                    <h1 class="text-2xl font-bold leading-tight">Elvira Carhuallanqui</h1>
+                    <p class="font-medium opacity-90">Conseillère de la ville • Parc-Extension</p>
                 </div>
             </div>
             <div class="hidden md:block">
-                <span class="text-xs opacity-70 uppercase tracking-[0.2em] font-bold text-[var(--pe-text-main)]">Projet Montréal</span>
+                <span class="text-xs opacity-80 uppercase tracking-[0.2em] font-bold">Projet Montréal</span>
             </div>
         </div>
     </header>
